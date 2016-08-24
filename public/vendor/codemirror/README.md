@@ -1,2 +1,2 @@
-Contains version 3.24 of codemirror
+Contains version 5.18.2 of codemirror
 Compressed with "compress codemirror fullscreen markdown"

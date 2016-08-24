@@ -77,8 +77,9 @@ mixin featuresJavaScripts()
     script.
       Jingo.cmInstance = CodeMirror.fromTextArea(document.getElementById("editor"), {
         lineNumbers: true,
-        mode: 'gfm',
+        mode: 'markdown',
         matchBrackets: true,
+        inputStyle: 'textarea',
         lineWrapping: true,
         extraKeys: {
           "Ctrl-Enter": function(cm) {
