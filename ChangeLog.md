@@ -1,3 +1,28 @@
+Version 1.7.3, January 8th, 2017
+==================================
+
+- Small set of fixed: merges #189, #190 and #191
+
+Version 1.7.2, December 4th, 2016
+==================================
+
+- Closes #183 (accessible document list)
+- Closes #182 (case insensitive test on SHA-1 passwords)
+- Reads Jingo version from packages.json (no manual edit for version bump)
+
+Version 1.7.1, November 5th, 2016
+==================================
+
+- Merges #179
+- Refines README
+- Adopts Standardjs as the formatting standard for the project
+
+Version 1.7.0, September 18th, 2016
+==================================
+
+- Fixes #164 (ProxyPath not used on /login)
+- Adds LDAP authentication support (@everpcpc). Requires manual installation of `passport-ldapauth`
+
 Version 1.6.1, January 27th, 2016
 ==================================
 
